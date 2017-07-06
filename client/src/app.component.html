@@ -1,0 +1,9 @@
+<h1>List of lunchtime partners</h1>
+
+<button type="text" (click)="importPartners()">Re-Import Partners</button>
+
+
+<div class="partner" *ngFor="let partner of partners$|async">
+  <div>{{partner.name}}</div>
+  <div>{{partner.address}}</div>
+</div>

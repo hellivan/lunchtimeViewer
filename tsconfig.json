@@ -1,0 +1,22 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "sourceMap": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "target": "es5",
+        "types" : [ "node" , "core-js", "hammerjs"],
+		"lib": [
+            "ES2017",
+            "DOM"
+        ]
+    },
+    "files": [
+        "./client/src/main.ts"
+    ]
+}
