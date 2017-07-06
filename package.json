@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node server",
-    "serve:client": "webpack --watch"
+    "serve:client": "webpack --watch",
+    "build:client": "webpack"	  
   },
   "dependencies": {
     "express": "^4.15.3",
