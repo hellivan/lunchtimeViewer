@@ -9,6 +9,6 @@ EXPOSE 3000
 
 ADD ./ ./
 
-RUN npm install && yarn build:client
+RUN yarn install && yarn build:client
 
 CMD ["yarn", "start"]
